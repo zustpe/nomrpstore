@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NO-MRP STORE | ALWAYS BELOW MRP - GUARANTEED. </title>
+    <link rel="icon" type="image/png" href="./images/NoMRP.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
+
+    <style>
+        :root {
+            --charcoal: #000000;
+            --deep-charcoal: #000000;
+            --royal-gold: #d4af37;
+            --soft-gold: #c9a227;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: "Inter", sans-serif;
+            background-color: var(--deep-charcoal);
+            color: var(--white);
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: "Poppins", sans-serif;
+        }
+
+        .gold-text {
+            color: var(--royal-gold);
+        }
+
+        .gold-bg {
+            background-color: var(--royal-gold);
+        }
+
+        .soft-gold-text {
+            color: var(--soft-gold);
+        }
+
+        .btn-gold {
+            background: linear-gradient(135deg,
+                    var(--royal-gold),
+                    var(--soft-gold));
+            transition: all 0.3s ease;
+        }
+
+        .btn-gold:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(212, 175, 55, 0.3);
+        }
+    </style>
+</head>
+
+<body class="min-h-screen">
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-1.5 md:py-2 flex items-center justify-between">
+            <div class="flex items-center">
+                <img src="./images/NoMRP.png" alt="NO-MRP STORE Logo"
+                    class="w-10 h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 object-contain -mr-1.5 md:-mr-2" />
+            </div>
+
+            <!-- Desktop -->
+            <div class="hidden md:flex items-center space-x-6 lg:space-x-8">
+                <a href="#about"
+                    class="text-gray-800 font-medium hover:text-amber-600 transition-colors duration-200 text-sm lg:text-base">About</a>
+
+                <a href="#brands"
+                    class="text-gray-800 font-medium hover:text-amber-600 transition-colors duration-200 text-sm lg:text-base">Brands</a>
+                <a href="#contact"
+                    class="text-gray-800 font-medium hover:text-amber-600 transition-colors duration-200 text-sm lg:text-base">Contact</a>
+            </div>
+
+            <!-- Mobile button -->
+            <button id="menu-btn" class="md:hidden text-2xl text-gray-800 focus:outline-none">
+                ☰
+            </button>
+        </div>
+
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200">
+            <div class="flex flex-col items-center py-3 space-y-3">
+                <a href="#about" class="text-gray-800 hover:text-amber-600 transition font-medium">About</a>
+
+                <a href="#brands" class="text-gray-800 hover:text-amber-600 transition font-medium">Brands</a>
+                <a href="#contact" class="text-gray-800 hover:text-amber-600 transition font-medium">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 px-6 bg-[var(--charcoal)]">
+        <div class="max-w-5xl mx-auto text-center">
+            <h2 class="text-5xl font-bold gold-text mb-10">About</h2>
+            <p class="text-xl leading-relaxed max-w-3xl mx-auto">
+                NO-MRP STORE. We're your premium partner for software licenses and
+                services — always below MRP, guaranteed. Whether you're an SMB,
+                enterprise, or educational institution, we deliver Microsoft, Google,
+                Atlassian, GitHub, and more at unbeatable prices.
+            </p>
+        </div>
+    </section>
+
+    <!-- <section
+      class="pt-32 pb-20 px-6 text-center bg-gradient-to-b from-[var(--deep-charcoal)] to-[var(--charcoal)]"
+    >
+      <div class="max-w-5xl mx-auto">
+        <h1
+          class="flex items-center justify-center gap-0 text-3xl sm:text-5xl md:text-3xl lg:text-4xl gold-text mb-3 sm:mb-4 tracking-tight -translate-x-3 sm:-translate-x-4 md:-translate-x-3 lg:-translate-x-4"
+        >
+          <img
+            src="./images/NoMRP.png"
+            alt="NO-MRP STORE Logo"
+            class="w-20 h-20 sm:w-28 sm:h-28 md:w-16 md:h-16 lg:w-36 lg:h-36 object-contain shrink-0 -mr-2 sm:-mr-3 md:-mr-4 lg:-mr-5"
+          />
+          <span class="text-left leading-tight">NO-MRP<br />STORE.</span>
+        </h1>
+
+        <p
+          class="text-2xl md:text-2xl lg:text-5xl font-extrabold mb-10 md:mb-6 tracking-wide"
+        >
+          <span class="gold-text"
+            >ALWAYS BELOW<br />
+            MRP - GUARANTEED.</span
+          >
+        </p>
+
+        <a
+          href="mailto:ioquin@omoma.com"
+          class="inline-block px-8 py-4 md:px-10 md:py-5 text-lg md:text-xl font-bold rounded-full btn-gold text-[var(--deep-charcoal)] shadow-lg hover:shadow-2xl transition-all duration-300"
+        >
+          nomrp@zustpe.com
+        </a>
+      </div>
+    </section> -->
+
+    <section id="brands" class="py-16 md:py-24 px-6 bg-[var(--charcoal)] overflow-hidden">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center gold-text mb-10 md:mb-14">
+                Brands We Work With
+            </h2>
+
+            <!-- Marquee Container - Left to Right -->
+            <div class="marquee-wrapper mb-10">
+                <div class="marquee marquee-left flex gap-6 md:gap-10 animate-marquee">
+                    <!-- Duplicate items for seamless loop -->
+                    <div class="brand-card"> <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
+                            alt="Microsoft Logo" class="h-16 md:h-20 object-contain" />
+                        <p class="mt-3 text-white font-semibold"></p>
+                    </div>
+                    <div class="brand-card">
+                        <img src="https://download.logo.wine/logo/Google_Cloud_Platform/Google_Cloud_Platform-Logo.wine.png"
+                            alt="Google Cloud Logo" class="h-16 md:h-20 object-contain" />
+                        <p class="mt-3 text-white font-semibold"></p>
+                    </div>
+                    <div class="brand-card"> <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/512px-Amazon_Web_Services_Logo.svg.png"
+                            alt="AWS Logo" class="h-16 md:h-20 object-contain" />
+                        <p class="mt-3 text-white font-semibold"></p>
+                    </div>
+                    <div class="brand-card"> <img
+                            src="./images/Brand/meta2.png"
+                            alt="Meta Logo" class="h-16 md:h-20 object-contain" />
+                        <p class="mt-3 text-white font-semibold"></p>
+                    </div>
+                    <div class="brand-card">
+                        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                            alt="GitHub Logo" class="h-16 md:h-20 object-contain" />
+                        <p class="mt-3 text-white font-semibold"></p>
+                    </div>
+                    <div class="brand-card">
+                        <img src="https://download.logo.wine/logo/GitLab/GitLab-Logo.wine.png" alt="GitLab Logo"
+                            class="h-16 md:h-20 object-contain" />
+                        <p class="mt-3 text-white font-semibold"></p>
+                    </div>
+                    <div class="brand-card">
+                        <img src="https://download.logo.wine/logo/Red_Hat/Red_Hat-Logo.wine.png" alt="Red Hat Logo"
+                            class="h-16 md:h-20 object-contain" />
+                        <p class="mt-3 text-white font-semibold"></p>
+                    </div>
+                    <div class="brand-card">
+                        <img src="https://www.kindpng.com/picc/m/163-1638130_transparent-adobe-logo-png-png-download.png"
+                            alt="Adobe Logo" class="h-16 md:h-20 object-contain" />
+                        <p class="mt-3 text-white font-semibold"></p>
+                    </div>
+                    <div class="brand-card">
+                        <img src="https://download.logo.wine/logo/Asus/Asus-Logo.wine.png" alt="Asus Logo"
+                            class="h-16 md:h-20 object-contain" />
+                        <p class="mt-3 text-white font-semibold"></p>
+                    </div>
+                    <!-- Add more as needed for smooth loop -->
+                </div>
+            </div>
+
+            <!-- Marquee Container - Right to Left -->
+            
+        </div>
+
+        <!-- CSS for Marquee -->
+        <style>
+            .marquee-wrapper {
+                overflow: hidden;
+                position: relative;
+                width: 100%;
+            }
+
+            .marquee {
+                display: flex;
+                white-space: nowrap;
+                animation-duration: 30s;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+            }
+
+            .animate-marquee {
+                animation-name: marquee-left;
+            }
+
+            .animate-marquee-reverse {
+                animation-name: marquee-right;
+            }
+
+            @keyframes marquee-left {
+                0% {
+                    transform: translateX(0);
+                }
+
+                100% {
+                    transform: translateX(-50%);
+                }
+            }
+
+            @keyframes marquee-right {
+                0% {
+                    transform: translateX(-50%);
+                }
+
+                100% {
+                    transform: translateX(0);
+                }
+            }
+
+            .brand-card {
+                flex: 0 0 auto;
+                width: 160px;
+                min-width: 140px;
+                text-align: center;
+                padding: 1rem;
+                background: var(--charcoal-dark);
+                border: 1px solid rgba(var(--royal-gold-rgb), 0.2);
+                border-radius: 1rem;
+                transition: all 0.3s ease;
+            }
+
+            .brand-card:hover {
+                border-color: rgba(var(--royal-gold-rgb), 0.6);
+                transform: scale(1.05);
+            }
+
+            /* Pause on hover */
+            .marquee-wrapper:hover .marquee {
+                animation-play-state: paused;
+            }
+
+            @media (max-width: 640px) {
+                .brand-card {
+                    width: 120px;
+                    min-width: 100px;
+                }
+
+                .marquee {
+                    animation-duration: 40s;
+                }
+
+                /* Slower on mobile */
+            }
+        </style>
+    </section>
+
+    <!-- <section
+      id="solutions"
+      class="py-20 md:py-24 px-6 bg-[var(--charcoal)] text-white"
+    >
+      <div class="max-w-7xl mx-auto">
+        <h2
+          class="text-4xl md:text-5xl lg:text-6xl font-bold text-center gold-text mb-16 md:mb-20 tracking-tight"
+        >
+          Solutions
+        </h2>
+
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10"
+        >
+          <div
+            class="group p-8 md:p-10 bg-[var(--deep-charcoal)] rounded-3xl border border-[var(--royal-gold)]/20 hover:border-[var(--royal-gold)] hover:shadow-xl hover:shadow-[var(--royal-gold)]/10 transition-all duration-300 ease-out flex flex-col items-center"
+          >
+            <img
+              src="https://uxwing.com/wp-content/themes/uxwing/download/business-professional-services/shop-store-icon.svg"
+              alt="SMBs Icon"
+              class="h-20 md:h-24 mb-6 object-contain invert brightness-90 group-hover:brightness-150 group-hover:hue-rotate-[30deg] transition-all duration-300"
+            />
+            <h3 class="text-2xl md:text-3xl font-bold text-center">SMBs</h3>
+          </div>
+
+          <div
+            class="group p-8 md:p-10 bg-[var(--deep-charcoal)] rounded-3xl border border-[var(--royal-gold)]/20 hover:border-[var(--royal-gold)] hover:shadow-xl hover:shadow-[var(--royal-gold)]/10 transition-all duration-300 ease-out flex flex-col items-center"
+          >
+            <img
+              src="https://unpkg.com/@tabler/icons@latest/icons/outline/building-skyscraper.svg"
+              alt="Enterprise Icon"
+              class="h-20 md:h-24 mb-6 object-contain invert brightness-90 group-hover:brightness-150 group-hover:hue-rotate-[30deg] transition-all duration-300"
+            />
+            <h3 class="text-2xl md:text-3xl font-bold text-center">
+              Enterprise
+            </h3>
+          </div>
+
+          <div
+            class="group p-8 md:p-10 bg-[var(--deep-charcoal)] rounded-3xl border border-[var(--royal-gold)]/20 hover:border-[var(--royal-gold)] hover:shadow-xl hover:shadow-[var(--royal-gold)]/10 transition-all duration-300 ease-out flex flex-col items-center"
+          >
+            <img
+              src="https://uxwing.com/wp-content/themes/uxwing/download/education-school/graduation-cap-icon.svg"
+              alt="Education Icon"
+              class="h-20 md:h-24 mb-6 object-contain invert brightness-90 group-hover:brightness-150 group-hover:hue-rotate-[30deg] transition-all duration-300"
+            />
+            <h3 class="text-2xl md:text-3xl font-bold text-center">
+              Education
+            </h3>
+          </div>
+
+          <div
+            class="group p-8 md:p-10 bg-[var(--deep-charcoal)] rounded-3xl border border-[var(--royal-gold)]/20 hover:border-[var(--royal-gold)] hover:shadow-xl hover:shadow-[var(--royal-gold)]/10 transition-all duration-300 ease-out flex flex-col items-center sm:col-span-2 lg:col-span-1"
+          >
+            <img
+              src="https://unpkg.com/@tabler/icons@latest/icons/outline/link.svg"
+              alt="System Integrators & Partners Icon"
+              class="h-20 md:h-24 mb-6 object-contain invert brightness-90 group-hover:brightness-150 group-hover:hue-rotate-[30deg] transition-all duration-300"
+            />
+            <h3 class="text-2xl md:text-3xl font-bold text-center">
+              System Integrators & Partners
+            </h3>
+          </div>
+
+          <div
+            class="group p-8 md:p-10 bg-[var(--deep-charcoal)] rounded-3xl border border-[var(--royal-gold)]/20 hover:border-[var(--royal-gold)] hover:shadow-xl hover:shadow-[var(--royal-gold)]/10 transition-all duration-300 ease-out flex flex-col items-center sm:col-span-2 lg:col-span-2 xl:col-span-1"
+          >
+            <img
+              src="https://uxwing.com/wp-content/themes/uxwing/download/business-professional-services/hand-shake-icon.svg"
+              alt="Collaces Appliters Everywhere Icon"
+              class="h-20 md:h-24 mb-6 object-contain invert brightness-90 group-hover:brightness-150 group-hover:hue-rotate-[30deg] transition-all duration-300"
+            />
+            <h3 class="text-2xl md:text-3xl font-bold text-center">
+              Collaces Appliters Everywhere
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section id="contact" class="py-16 px-4 sm:px-6 md:py-20 md:px-6 bg-black text-white">
+        <div class="max-w-5xl mx-auto text-center">
+            <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold gold-text mb-8 md:mb-12 tracking-tight">
+                Contact
+            </h2>
+
+            <div
+                class="flex flex-col sm:flex-row justify-center items-center gap-2 mb-8 text-base sm:text-lg md:text-xl gold-text">
+                <span class="text-xl sm:text-2xl order-2 sm:order-1">⧉</span>
+                <a href="mailto:enquire@nomrpstore.com"
+                    class="text-white hover:underline transition-colors duration-300 order-1 sm:order-2">
+                    enquire@nomrp.store
+                </a>
+            </div>
+
+
+
+            <!-- <div class="mt-12">
+      
+      
+      <div class="flex flex-col lg:flex-row justify-center items-stretch gap-4 sm:gap-6 lg:gap-8 max-w-4xl mx-auto">
+        <div class="bg-gray-900 rounded-lg p-4 sm:p-6 flex-1 text-left gold-text min-h-[120px] flex flex-col justify-between">
+          <div>
+            <h4 class="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">Contact</h4>
+            <p class="mb-1 sm:mb-2 text-sm sm:text-base">test@email.com</p>
+            <p class="text-sm sm:text-base">Test ID: 12345</p>
+          </div>
+        </div>
+        
+        <!-- Right Panel: Test Status -->
+            <!-- <div class="bg-gray-900 rounded-lg p-4 sm:p-6 flex-1 text-left gold-text min-h-[120px] flex flex-col justify-between">
+          <div>
+            <h4 class="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">Test Status</h4>
+            <p class="mb-1 sm:mb-2 text-sm sm:text-base">Active</p>
+            <p class="text-sm sm:text-base">Last Updated: 2024</p>
+          </div>
+        </div> -->
+        </div>
+
+
+        </div>
+        </div>
+    </section>
+
+
+
+    <footer class="py-10 px-6 bg-white border-t border-gray-200 text-center text-sm text-black">
+        <div class="max-w-6xl mx-auto">
+
+            <div class="mt-4 flex flex-wrap justify-center gap-x-6 gap-y-2">
+                <a href="#" class="hover:underline hover:text-gray-700 transition">Terms &
+                    Conditions</a>
+                <a href="#" class="hover:underline hover:text-gray-700 transition">Refund Policy</a>
+                <a href="#" class="hover:underline hover:text-gray-700 transition">Cancellation
+                    Policy</a>
+                <a href="#  " class="hover:underline hover:text-gray-700 transition">Contact Us</a>
+            </div>
+
+
+        </div>
+    </footer>
+
+    <!-- JavaScript for Hamburger Menu -->
+    <script>
+        const menuBtn = document.getElementById("menu-btn");
+        const mobileMenu = document.getElementById("mobile-menu");
+
+        menuBtn.addEventListener("click", () => {
+            mobileMenu.classList.toggle("hidden");
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll("#mobile-menu a").forEach((link) => {
+            link.addEventListener("click", () => {
+                mobileMenu.classList.add("hidden");
+            });
+        });
+    </script>
+</body>
+
+</html>
